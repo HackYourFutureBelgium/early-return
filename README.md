@@ -46,8 +46,8 @@ function earlyReturn(a, b) {
   if (typeof a !== 'number' && typeof b !== 'number') {
     return 'a and b are not numbers';
   }
-  if (typeof a !== 'number') return 'a is not a number';
-  if (typeof b !== 'number') return 'b is not a number';
+  if (typeof a !== 'number') { return 'a is not a number'; }
+  if (typeof b !== 'number') { return 'b is not a number'; }
 
   return a + b;
 }
